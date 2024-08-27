@@ -9,7 +9,7 @@ default_args = {
 }
 
 dag = DAG(
-    'First DAG',
+    'first-dag',
     default_args = default_args,
     schedule=timedelta(days=1)
 )
